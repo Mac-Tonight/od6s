@@ -1,0 +1,258 @@
+{
+  "id": "od6s",
+  "title": "OpenD6 Space",
+  "description": "OpenD6 Space System for FoundryVTT",
+  "version": "1.0.0",
+  "templateVersion": 2,
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "seumas"
+    }
+  ],
+  "esmodules": [
+    "module/od6s.js"
+  ],
+  "styles": [
+    "css/od6s.css",
+    "css/star-wars.css"
+  ],
+  "scripts": [
+    "lib/math.js"
+  ],
+  "packs": [
+    {
+      "name": "weapons",
+      "label": "Weapons",
+      "path": "packs/weapons",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "armor",
+      "label": "Armor",
+      "path": "packs/armor",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "natural",
+      "label": "Natural Combat Items",
+      "path": "packs/natural",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "advantages",
+      "label": "Advantages",
+      "path": "packs/advantages",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "disadvantages",
+      "label": "Disadvantages",
+      "path": "packs/disadvantages",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "skills",
+      "label": "Skills",
+      "path": "packs/skills",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "metaphysics-skills",
+      "label": "Metaphysics Skills",
+      "path": "packs/metaphysics-skills",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "specialabilities",
+      "label": "Special Abilities",
+      "path": "packs/special-abilities",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "gear",
+      "label": "Gear",
+      "path": "packs/gear",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "cybernetics",
+      "label": "Cybernetics",
+      "path": "packs/cybernetics",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "vehicle-weapons",
+      "label": "Vehicle Weapons",
+      "path": "packs/vehicle-weapons",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "vehicle-gear",
+      "label": "Vehicle Gear",
+      "path": "packs/vehicle-gear",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "starship-weapons",
+      "label": "Starship Weapons",
+      "path": "packs/starship-weapons",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "starship-gear",
+      "label": "Starship Gear",
+      "path": "packs/starship-gear",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "vehicles",
+      "label": "Vehicles",
+      "path": "packs/vehicles",
+      "type": "Actor",
+      "system": "od6s"
+    },
+    {
+      "name": "starships",
+      "label": "Starships",
+      "path": "packs/starships",
+      "type": "Actor",
+      "system": "od6s"
+    },
+    {
+      "name": "character-templates",
+      "label": "Character Templates",
+      "path": "packs/character-templates",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "system": "od6s"
+    },
+    {
+      "name": "sw-skills",
+      "label": "Star Wars D6 Skills",
+      "path": "packs/sw-skills",
+      "type": "Item"
+    },
+    {
+      "name": "sw-adv-skills",
+      "label": "Star Wars D6 Advanced Skills",
+      "path": "packs/sw-adv-skills",
+      "type": "Item"
+    },
+    {
+      "name": "sw-weapons",
+      "label": "Star Wars D6 Weapons",
+      "path": "packs/sw-weapons",
+      "type": "Item"
+    },
+    {
+      "name": "sw-gear",
+      "label": "Star Wars D6 Personal Equipment",
+      "path": "packs/sw-gear",
+      "type": "Item"
+    },
+    {
+      "name": "sw-commodity",
+      "label": "Star Wars D6 General Goods",
+      "path": "packs/sw-commodity",
+      "type": "Item"
+    },
+    {
+      "name": "sw-powers",
+      "label": "Star Wars D6 Force Powers",
+      "path": "packs/sw-powers",
+      "type": "Item"
+    },
+    {
+      "name": "sw-gmpc",
+      "label": "Star Wars D6 Gamemaster Characters",
+      "path": "packs/sw-gmpc",
+      "type": "Actor"
+    },
+    {
+      "name": "sw-starfighters",
+      "label": "Star Wars D6 Starfighters",
+      "path": "packs/sw-starfighters",
+      "type": "Actor"
+    },
+    {
+      "name": "sw-templates",
+      "label": "Star Wars D6 Character Templates",
+      "path": "packs/sw-templates",
+      "type": "Item"
+    },
+    {
+      "name": "sw-template-items",
+      "label": "Star Wars D6 Template Support Items",
+      "path": "packs/sw-template-items",
+      "type": "Item"
+    },
+    {
+      "name": "sw-macros",
+      "label": "Star Wars D6 Macros",
+      "path": "packs/sw-macros",
+      "type": "Macro"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    },
+    {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "lang/ru.json"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "socketlib",
+        "type": "module"
+      }
+    ]
+  },
+  "socket": true,
+  "gridDistance": 1,
+  "gridUnits": "m",
+  "url": "https://gitlab.com/vtt2/opend6-space/",
+  "manifest": "https://gitlab.com/api/v4/projects/23950825/packages/generic/od6s/0.7.0/system.json",
+  "download": "https://gitlab.com/api/v4/projects/23950825/packages/generic/od6s/0.7.0/od6s.zip",
+  "license": "https://gitlab.com/vtt2/opend6-space/-/blob/master/LICENSE"
+}

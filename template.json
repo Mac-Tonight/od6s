@@ -1,0 +1,1082 @@
+{
+  "Actor": {
+    "types": [
+      "character",
+      "npc",
+      "creature",
+      "vehicle",
+      "starship",
+      "container"
+    ],
+    "templates": {
+      "attributes": {
+        "attributes": {
+          "agi": {
+            "label": "OD6S.CHAR_AGILITY",
+            "short_label": "OD6S.CHAR_AGILITY_SHORT",
+            "base": 0,
+            "mod": 0,
+            "score": 0,
+            "max": 15,
+            "min": 3,
+            "type": "Number"
+          },
+          "str": {
+            "label": "OD6S.CHAR_STRENGTH",
+            "short_label": "OD6S.CHAR_STRENGTH_SHORT",
+            "base": 0,
+            "mod": 0,
+            "score": 0,
+            "max": 15,
+            "min": 3,
+            "type": "Number"
+          },
+          "mec": {
+            "label": "OD6S.CHAR_MECHANICAL",
+            "short_label": "OD6S.CHAR_MECHANICAL_SHORT",
+            "base": 0,
+            "mod": 0,
+            "score": 0,
+            "max": 15,
+            "min": 3,
+            "type": "Number"
+          },
+          "kno": {
+            "label": "OD6S.CHAR_KNOWLEDGE",
+            "short_label": "OD6S.CHAR_KNOWLEDGE_SHORT",
+            "base": 0,
+            "mod": 0,
+            "score": 0,
+            "max": 15,
+            "min": 3,
+            "type": "Number"
+          },
+          "per": {
+            "label": "OD6S.CHAR_PERCEPTION",
+            "short_label": "OD6S.CHAR_PERCEPTION_SHORT",
+            "base": 0,
+            "mod": 0,
+            "score": 0,
+            "max": 15,
+            "min": 3,
+            "type": "Number"
+          },
+          "tec": {
+            "label": "OD6S.CHAR_TECHNICAL",
+            "short_label": "OD6S.CHAR_TECHNICAL_SHORT",
+            "base": 0,
+            "mod": 0,
+            "score": 0,
+            "max": 15,
+            "min": 3,
+            "type": "Number"
+          },
+          "met": {
+            "label": "OD6S.CHAR_METAPHYSICS",
+            "short_label": "OD6S.CHAR_METAPHYSICS_SHORT",
+            "base": 0,
+            "mod": 0,
+            "score": 0,
+            "type": "Number"
+          },
+          "ca1": {
+            "label": "OD6S.CHAR_CUSTOM_ATTRIBUTE_01",
+            "short_label": "OD6S.CHAR_CUSTOM_ATTRIBUTE_01_SHORT",
+            "base": 0,
+            "mod": 0,
+            "score": 0,
+            "type": "Number"
+          },
+          "ca2": {
+            "label": "OD6S.CHAR_CUSTOM_ATTRIBUTE_02",
+            "short_label": "OD6S.CHAR_CUSTOM_ATTRIBUTE_02_SHORT",
+            "base": 0,
+            "mod": 0,
+            "score": 0,
+            "type": "Number"
+          },
+          "ca3": {
+            "label": "OD6S.CHAR_CUSTOM_ATTRIBUTE_03",
+            "short_label": "OD6S.CHAR_CUSTOM_ATTRIBUTE_03_SHORT",
+            "base": 0,
+            "mod": 0,
+            "score": 0,
+            "type": "Number"
+          },
+          "ca4": {
+            "label": "OD6S.CHAR_CUSTOM_ATTRIBUTE_04",
+            "short_label": "OD6S.CHAR_CUSTOM_ATTRIBUTE_04_SHORT",
+            "base": 0,
+            "mod": 0,
+            "score": 0,
+            "type": "Number"
+          },
+          "orn": {
+            "label": "OD6S.CHAR_ORNERINESS",
+            "short_label": "OD6S.CHAR_ORNERINESS_SHORT",
+            "base": 0,
+            "mod": 0,
+            "score": 0,
+            "max": 15,
+            "min": 3,
+            "type": "Number"
+          }
+        }
+      },
+      "npc": {
+        "description": {
+          "type": "String",
+          "label": "OD6S.DESCRIPTION",
+          "content": ""
+        },
+        "fatepoints": {
+          "type": "Number",
+          "label": "OD6S.CHAR_FATE_POINTS",
+          "short_label": "OD6S.CHAR_FATE_POINTS_SHORT",
+          "value": 0
+        },
+        "characterpoints": {
+          "type": "Number",
+          "label": "OD6S.CHAR_CHAR_POINTS",
+          "short_label": "OD6S.CHAR_CHAR_POINTS_SHORT",
+          "value": 0
+        }
+      },
+      "vehicle_common": {
+        "vehicle_type": {
+          "value": "",
+          "type": "String",
+          "label": "OD6S.VEHICLE_TYPE"
+        },
+        "initiative": {
+          "type": "String",
+          "label": "OD6S.INITIATIVE",
+          "formula": "",
+          "mod": 0,
+          "score": 0
+        },
+        "damage": {
+          "value": "",
+          "type": "String",
+          "label": "OD6S.DAMAGE"
+        },
+        "scale": {
+          "score": 3,
+          "type": "Number",
+          "label": "OD6S.SCALE"
+        },
+        "maneuverability": {
+          "score": 0,
+          "type": "Number",
+          "label": "OD6S.MANEUVERABILITY"
+        },
+        "toughness": {
+          "score": 0,
+          "type": "Number",
+          "label": "OD6S.TOUGHNESS"
+        },
+        "armor": {
+          "score": 0,
+          "type": "Number",
+          "label": "OD6S.ARMOR"
+        },
+        "move": {
+          "value": 0,
+          "type": "Number",
+          "label": "OD6S.MOVE"
+        },
+        "cargo_capacity": {
+          "value": 0,
+          "type": "Number",
+          "label": "OD6S.CARGO_CAPACITY"
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "OD6S.COST"
+        },
+        "price": {
+          "value": "",
+          "type": "String",
+          "label": "OD6S.PRICE"
+        },
+        "crew": {
+          "value": 1,
+          "type": "Number",
+          "label": "OD6S.CREW"
+        },
+        "crewmembers": [],
+        "passengers": {
+          "value": 0,
+          "type": "Number",
+          "label": "OD6S.PASSENGERS"
+        },
+        "skill": {
+          "value": "",
+          "type": "String",
+          "label": "OD6S.SKILL"
+        },
+        "specialization": {
+          "value": "",
+          "type": "String",
+          "label": "OD6S.SPECIALIZATION"
+        },
+        "attribute": {
+          "value": "mec",
+          "type": "String",
+          "label": "OD6S.ATTRIBUTE"
+        },
+        "dodge": {
+          "score": 0,
+          "mod": 0,
+          "type": "Number",
+          "label": "OD6S.DODGE"
+        },
+        "sensors": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.SENSORS",
+          "skill": "Sensors",
+          "mod": 0,
+          "types": {
+            "passive": {
+              "score": 0,
+              "range": 0,
+              "label": "OD6S.SENSORS_PASSIVE",
+              "type": "Number"
+            },
+            "scan": {
+              "score": 0,
+              "range": 0,
+              "label": "OD6S.SENSORS_SCAN",
+              "type": "Number"
+            },
+            "search": {
+              "score": 0,
+              "range": 0,
+              "label": "OD6S.SENSORS_SEARCH",
+              "type": "Number"
+            },
+            "focus": {
+              "score": 0,
+              "range": 0,
+              "label": "OD6S.SENSORS_FOCUS",
+              "type": "Number"
+            }
+          }
+        },
+        "shields": {
+          "value": 0,
+          "allocated": 0,
+          "type": "Number",
+          "label": "OD6S.SHIELDS",
+          "skill": "OD6S.SHIELDS",
+          "arcs": {
+            "front": {
+              "label": "OD6S.FRONT",
+              "value": 0,
+              "type": "Number"
+            },
+            "rear": {
+              "label": "OD6S.REAR",
+              "value": 0,
+              "type": "Number"
+            },
+            "left": {
+              "label": "OD6S.LEFT",
+              "value": 0,
+              "type": "Number"
+            },
+            "right": {
+              "label": "OD6S.RIGHT",
+              "value": 0,
+              "type": "Number"
+            }
+          }
+        },
+        "ranged": {
+          "type": "Number",
+          "label": "OD6S.RANGED_ATTACK_MOD",
+          "short_label": "OD6S.RANGED_ATTACK_MOD_SHORT",
+          "score": 0
+        },
+        "ranged_damage": {
+          "type": "Number",
+          "label": "OD6S.RANGED_DAMAGE_MOD",
+          "short_label": "OD6S.RANGED_DAMAGE_MOD_SHORT",
+          "score": 0
+        },
+        "ram": {
+          "type": "Number",
+          "label": "OD6S.RAM_ATTACK_MOD",
+          "short_label": "OD6S.RAM_ATTACK_MOD_SHORT",
+          "score": 0
+        },
+        "ram_damage": {
+          "type": "Number",
+          "label": "OD6S.RAM_DAMAGE_MOD",
+          "short_label": "OD6S.RAM_DAMAGE_MOD_SHORT",
+          "score": 0
+        },
+        "length": {
+          "value": 0,
+          "type": "Number",
+          "label": "OD6S.LENGTH"
+        },
+        "tonnage": {
+          "value": 0,
+          "type": "Number",
+          "label": "OD6S.TONNAGE"
+        },
+        "embedded_pilot": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EMBEDDED_PILOT",
+          "actor": {}
+        },
+        "sheetmode": {
+          "type": "String",
+          "label": "OD6S.SHEET_MODE",
+          "short_label": "OD6S.SHEET_MODE_SHORT",
+          "value": "normal"
+        },
+        "roll_mod": 0
+      },
+      "common": {
+        "move": {
+          "type": "Number",
+          "label": "OD6S.CHAR_MOVE",
+          "mod": 0,
+          "value": 10
+        },
+        "chartype": {
+          "type": "String",
+          "label": "OD6S.CHAR_TYPE",
+          "content": ""
+        },
+        "species": {
+          "type": "String",
+          "label": "OD6S.CHAR_SPECIES",
+          "content": ""
+        },
+        "wounds": {
+          "type": "String",
+          "label": "OD6S.CHAR_HEALTH",
+          "short_label": "OD6S.CHAR_HEALTH",
+          "value": 0,
+          "body_points": {
+            "max": 0,
+            "current": 0
+          }
+        },
+        "stuns": {
+          "type": "Number",
+          "label": "OD6S.CHAR_STUNS",
+          "value": 0,
+          "current": 0,
+          "rounds": 0
+        },
+        "strengthdamage": {
+          "type": "Number",
+          "label": "OD6S.STRENGTH_DAMAGE",
+          "short_label": "OD6S.STRENGTH_DAMAGE_SHORT",
+          "mod": 0,
+          "score": 0
+        },
+        "ranged": {
+          "type": "Number",
+          "label": "OD6S.RANGED_ATTACK_MOD",
+          "short_label": "OD6S.RANGED_ATTACK_MOD_SHORT",
+          "mod": 0
+        },
+        "melee": {
+          "type": "Number",
+          "label": "OD6S.MELEE_ATTACK_MOD",
+          "short_label": "OD6S.MELEE_ATTACK_MOD_SHORT",
+          "mod": 0
+        },
+        "brawl": {
+          "type": "Number",
+          "label": "OD6S.BRAWL_ATTACK_MOD",
+          "short_label": "OD6S.BRAWL_ATTACK_MOD_SHORT",
+          "mod": 0
+        },
+        "sheetmode": {
+          "type": "String",
+          "label": "OD6S.SHEET_MODE",
+          "short_label": "OD6S.SHEET_MODE_SHORT",
+          "value": "normal"
+        },
+        "dodge": {
+          "type": "Number",
+          "label": "OD6S.DODGE",
+          "short_label": "OD6S.DODGE_SHORT",
+          "mod": 0,
+          "score": 0
+        },
+        "parry": {
+          "type": "Number",
+          "label": "OD6S.PARRY",
+          "short_label": "OD6S.PARRY_SHORT",
+          "mod": 0,
+          "score": 0
+        },
+        "block": {
+          "type": "Number",
+          "label": "OD6S.BLOCK",
+          "short_label": "OD6S.BLOCK_SHORT",
+          "mod": 0,
+          "score": 0
+        },
+        "pr": {
+          "type": "Number",
+          "label": "OD6S.PHYSICAL_RESISTANCE",
+          "short_label": "OD6S.PHYSICAL_RESISTANCE_SHORT",
+          "mod": 0,
+          "score": 0
+        },
+        "er": {
+          "type": "Number",
+          "label": "OD6S.ENERGY_RESISTANCE",
+          "short_label": "OD6S.ENERGY_RESISTANCE_SHORT",
+          "mod": 0,
+          "score": 0
+        },
+        "credits": {
+          "type": "Number",
+          "label": "OD6S.CHAR_CREDITS",
+          "value": 0
+        },
+        "funds": {
+          "type": "Number",
+          "label": "OD6S.CHAR_FUNDS",
+          "score": 0
+        },
+        "initiative": {
+          "type": "String",
+          "label": "OD6S.INITIATIVE",
+          "formula": "",
+          "mod": 0,
+          "score": 0
+        },
+        "scale": {
+          "type": "Number",
+          "label": "OD6S.SCALE",
+          "score": 0
+        },
+        "customeffects": {
+          "skills": {},
+          "specializations": {}
+        },
+        "custom1": {
+          "value": ""
+        },
+        "custom2": {
+          "value": ""
+        },
+        "custom3": {
+          "value": ""
+        },
+        "custom4": {
+          "value": ""
+        },
+        "labels": {},
+        "tags": [],
+        "use_wild_die": true,
+        "roll_mod": 0
+      }
+    },
+    "container": {
+      "itemtypes": {
+        "armor": true,
+        "weapon": true,
+        "gear": true,
+        "cybernetics": false,
+        "vehicle_weapons": false,
+        "vehicle_gear": false,
+        "starship_weapons": false,
+        "starship_gear": false
+      },
+      "merchant": true,
+      "visible": false,
+      "locked": false
+    },
+    "character": {
+      "templates": [
+        "attributes",
+        "common"
+      ],
+      "background": {
+        "type": "String",
+        "label": "OD6S.CHAR_BACKGROUND",
+        "content": ""
+      },
+      "created": {
+        "type": "Boolean",
+        "label": "OD6S.CREATED",
+        "value": true
+      },
+      "fatepoints": {
+        "type": "Number",
+        "label": "OD6S.CHAR_FATE_POINTS",
+        "short_label": "OD6S.CHAR_FATE_POINTS_SHORT",
+        "value": 0
+      },
+      "characterpoints": {
+        "type": "Number",
+        "label": "OD6S.CHAR_CHAR_POINTS",
+        "short_label": "OD6S.CHAR_CHAR_POINTS_SHORT",
+        "value": 0
+      },
+      "gender": {
+        "type": "String",
+        "label": "OD6S.CHAR_GENDER",
+        "content": ""
+      },
+      "age": {
+        "type": "Number",
+        "label": "OD6S.CHAR_AGE",
+        "content": ""
+      },
+      "height": {
+        "type": "String",
+        "label": "OD6S.CHAR_HEIGHT",
+        "content": ""
+      },
+      "weight": {
+        "type": "String",
+        "label": "OD6S.CHAR_WEIGHT",
+        "content": ""
+      },
+      "description": {
+        "type": "String",
+        "label": "OD6S.CHAR_PHYSICAL_DESCRIPTION",
+        "content": ""
+      },
+      "personality": {
+        "type": "String",
+        "label": "OD6S.CHAR_PERSONALITY",
+        "content": ""
+      },
+      "metaphysicsextranormal": {
+        "type": "Boolean",
+        "label": "OD6S.METAPHYSICS_EXTRANORMAL",
+        "value": false
+      },
+      "custom1": "",
+      "vehicle": {}
+    },
+    "npc": {
+      "templates": [
+        "attributes",
+        "common",
+        "npc"
+      ],
+      "vehicle": {}
+    },
+    "creature": {
+      "templates": [
+        "attributes",
+        "common",
+        "npc"
+      ]
+    },
+    "starship": {
+      "templates": [
+        "attributes",
+        "vehicle_common"
+      ],
+      "interstellar_drive": {
+        "type": "Number",
+        "value": 0,
+        "label": "OD6S.INTERSTELLAR_DRIVE"
+      },
+      "atmospheric": {
+        "value": "true",
+        "type": "Boolean",
+        "label": "OD6S.ATMOSPHERIC",
+        "move": {
+          "label": "OD6S.ATMOSPHERIC_MOVE",
+          "value": 0,
+          "type": "Number"
+        },
+        "kph": {
+          "label": "OD6S.ATMOSPHERIC_KPH",
+          "value": 0,
+          "type": "Number"
+        }
+      },
+      "sensors": {
+        "value": true,
+        "type": "Boolean",
+        "label": "OD6S.SENSORS",
+        "types": {
+          "passive": {
+            "score": 0,
+            "range": 0,
+            "label": "OD6S.SENSORS_PASSIVE",
+            "type": "Number"
+          },
+          "scan": {
+            "score": 0,
+            "range": 0,
+            "label": "OD6S.SENSORS_SCAN",
+            "type": "Number"
+          },
+          "search": {
+            "score": 0,
+            "range": 0,
+            "label": "OD6S.SENSORS_SEARCH",
+            "type": "Number"
+          },
+          "focus": {
+            "score": 0,
+            "range": 0,
+            "label": "OD6S.SENSORS_FOCUS",
+            "type": "Number"
+          }
+        }
+      }
+    },
+    "vehicle": {
+      "templates": [
+        "attributes",
+        "vehicle_common"
+      ],
+      "cover": {
+        "value": "",
+        "type": "String",
+        "label": "OD6S.COVER"
+      },
+      "altitude": {
+        "value": 0,
+        "type": "Number",
+        "label": "OD6S.ALTITUDE"
+      }
+    }
+  },
+  "Item": {
+    "types": [
+      "skill",
+      "specialization",
+      "advantage",
+      "disadvantage",
+      "specialability",
+      "armor",
+      "weapon",
+      "gear",
+      "cybernetic",
+      "manifestation",
+      "character-template",
+      "action",
+      "vehicle",
+      "vehicle-weapon",
+      "vehicle-gear",
+      "starship-weapon",
+      "starship-gear",
+      "species-template",
+      "item-group"
+    ],
+    "templates": {
+      "base": {
+        "description": "",
+        "labels": {},
+        "tags": []
+      },
+      "equipment": {
+        "cost": 0,
+        "price": "",
+        "availability": "",
+        "quantity": 1
+      },
+      "equip": {
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        }
+      },
+      "skill": {
+        "attribute": "",
+        "min": false,
+        "base": 0,
+        "mod": 0,
+        "score": 0,
+        "time_taken": "One Round",
+        "isAdvancedSkill": false,
+        "used": {
+          "value": false
+        }
+      },
+      "advantage": {
+        "attribute": "",
+        "skill": "",
+        "value": ""
+      },
+      "vehicle-weapons": {
+        "scale": {
+          "type": "Number",
+          "score": 0
+        },
+        "damaged": 0,
+        "ammo": {
+          "type": "Number",
+          "value": 0
+        },
+        "arc": {
+          "type": "String",
+          "value": ""
+        },
+        "crew": {
+          "type": "Number",
+          "value": 1
+        },
+        "attribute": {
+          "type": "String",
+          "value": "mec"
+        },
+        "skill": {
+          "type": "String",
+          "value": ""
+        },
+        "specialization": {
+          "type": "String",
+          "value": ""
+        },
+        "fire_control": {
+          "type": "Number",
+          "score": 0
+        },
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        },
+        "damage": {
+          "type": "",
+          "score": 0
+        },
+        "linked": {
+          "type": "Number",
+          "value": 0
+        },
+        "difficulty": 0,
+        "mods": {
+          "difficulty": 0,
+          "attack": 0,
+          "damage": 0
+        }
+      }
+    },
+    "skill": {
+      "templates": [
+        "base",
+        "skill"
+      ],
+      "label": "OD6S.CHAR_SKILLS"
+    },
+    "specialization": {
+      "templates": [
+        "base",
+        "skill"
+      ],
+      "skill": "",
+      "label": "OD6S.CHAR_SPECIALIZATIONS",
+      "used": {
+        "value": false
+      }
+    },
+    "advantage": {
+      "templates": [
+        "base",
+        "advantage"
+      ],
+      "label": "OD6S.CHAR_ADVANTAGES"
+    },
+    "disadvantage": {
+      "templates": [
+        "base",
+        "advantage"
+      ],
+      "label": "OD6S.CHAR_DISADVANTAGES"
+    },
+    "specialability": {
+      "templates": [
+        "base"
+      ],
+      "label": "OD6S.CHAR_SPECIAL_ABILITIES"
+    },
+    "armor": {
+      "templates": [
+        "base",
+        "equipment",
+        "equip"
+      ],
+      "pr": 0,
+      "er": 0,
+      "label": "OD6S.CHAR_ARMOR"
+    },
+    "weapon": {
+      "templates": [
+        "base",
+        "equipment",
+        "equip"
+      ],
+      "scale": {
+        "score": 0,
+        "type": "Number",
+        "label": "OD6S.SCALE"
+      },
+      "subtype": "OD6S.RANGED",
+      "stats": {
+        "attribute": "AGI",
+        "skill": "",
+        "specialization": "",
+        "parry_skill": "",
+        "parry_specialization": ""
+      },
+      "range": {
+        "short": 0,
+        "medium": 0,
+        "long": 0
+      },
+      "damage": {
+        "type": "",
+        "score": 0,
+        "muscle": false,
+        "str": true
+      },
+      "blast_radius": {
+        "1": {
+          "range": 0,
+          "damage": 0,
+          "stun_range": 0,
+          "stun_damage": 0
+        },
+        "2": {
+          "range": 0,
+          "damage": 0,
+          "stun_range": 0,
+          "stun_damage": 0
+        },
+        "3": {
+          "range": 0,
+          "damage": 0,
+          "stun_range": 0,
+          "stun_damage": 0
+        },
+        "4": {
+          "range": 0,
+          "damage": 0,
+          "stun_range": 0,
+          "stun_damage": 0
+        }
+      },
+      "damaged": 0,
+      "ammo": 0,
+      "ammo_price": "",
+      "ammo_cost": 0,
+      "rof": 0,
+      "stun": {
+        "stun_only": false,
+        "score": 0,
+        "type": "e"
+      },
+      "difficulty": "OD6S.DIFFICULTY_EASY",
+      "mods": {
+        "difficulty": 0,
+        "attack": 0,
+        "damage": 0
+      },
+      "label": "OD6S.CHAR_WEAPONS"
+    },
+    "gear": {
+      "templates": [
+        "base",
+        "equipment",
+        "equip"
+      ],
+      "quantity": 1,
+      "consumable": false,
+      "label": "OD6S.CHAR_GEAR"
+    },
+    "vehicle-gear": {
+      "templates": [
+        "base",
+        "equipment",
+        "equip"
+      ],
+      "quantity": 1,
+      "consumable": false,
+      "label": "OD6S.VEHICLE_GEAR"
+    },
+    "starship-gear": {
+      "templates": [
+        "base",
+        "equipment",
+        "equip"
+      ],
+      "quantity": 1,
+      "consumable": false,
+      "label": "OD6S.STARSHIP_GEAR"
+    },
+    "cybernetic": {
+      "templates": [
+        "base",
+        "advantage",
+        "equipment",
+        "equip"
+      ],
+      "location": "",
+      "slots": 0,
+      "label": "OD6S.CHAR_CYBERNETICS"
+    },
+    "manifestation": {
+      "templates": [
+        "base"
+      ],
+      "label": "OD6S.CHAR_MANIFESTATIONS",
+      "attack": false,
+      "activate": false,
+      "active": false,
+      "roll": false,
+      "skills": {
+        "channel": {
+          "value": false,
+          "difficulty": "E",
+          "rolled": false
+        },
+        "sense": {
+          "value": false,
+          "difficulty": "E",
+          "rolled": false
+        },
+        "transform": {
+          "value": false,
+          "difficulty": "E",
+          "rolled": false
+        }
+      }
+    },
+    "character-template": {
+      "templates": [
+        "base"
+      ],
+      "species": "",
+      "attributes": {
+        "agi": 0,
+        "str": 0,
+        "kno": 0,
+        "mec": 0,
+        "per": 0,
+        "tec": 0,
+        "met": 0
+      },
+      "fp": 0,
+      "cp": 0,
+      "funds": 0,
+      "credits": 0,
+      "move": 10,
+      "me": false,
+      "items": [],
+      "label": "OD6S.CHARACTER_TEMPLATES"
+    },
+    "item-group": {
+      "templates": [
+        "base"
+      ],
+      "actor_types": [
+        "character"
+      ],
+      "items": [],
+      "label": "OD6S.ITEM_GROUP"
+    },
+    "species-template": {
+      "templates": [
+        "base"
+      ],
+      "attributes": {
+        "agi": {
+          "min": 3,
+          "max": 15
+        },
+        "str": {
+          "min": 3,
+          "max": 15
+        },
+        "kno": {
+          "min": 3,
+          "max": 15
+        },
+        "mec": {
+          "min": 3,
+          "max": 15
+        },
+        "per": {
+          "min": 3,
+          "max": 15
+        },
+        "tec": {
+          "min": 3,
+          "max": 15
+        },
+        "met": {
+          "min": 3,
+          "max": 15
+        }
+      },
+      "items": [],
+      "label": "OD6S.SPECIES_TEMPLATE"
+    },
+    "action": {
+      "templates": [
+        "base"
+      ],
+      "rollable": false,
+      "type": "",
+      "subtype": "",
+      "itemId": ""
+    },
+    "vehicle": {
+      "templates": [
+        "base",
+        "equipment"
+      ],
+      "label": "OD6S.CHAR_VEHICLES"
+    },
+    "vehicle-weapon": {
+      "templates": [
+        "base",
+        "equipment",
+        "equip",
+        "vehicle-weapons"
+      ],
+      "label": "OD6S.VEHICLE_WEAPON"
+    },
+    "starship-weapon": {
+      "templates": [
+        "base",
+        "equipment",
+        "equip",
+        "vehicle-weapons"
+      ],
+      "area-units": {
+        "type": "Number",
+        "value": 0,
+        "label": "OD6S.AREA_UNITS"
+      },
+      "mass": {
+        "type": "Number",
+        "value": 0,
+        "label": "OD6S.MASS"
+      },
+      "energy": {
+        "type": "Number",
+        "value": 0,
+        "label": "OD6S.ENERGY"
+      },
+      "label": "OD6S.STARSHIP_WEAPON"
+    }
+  }
+}
