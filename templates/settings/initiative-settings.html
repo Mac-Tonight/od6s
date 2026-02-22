@@ -1,0 +1,34 @@
+<form autocomplete="off" onsubmit="event.preventDefault();">
+    {{#each settings as |setting s|}}
+        <div class="form-group">
+            <label for="{{setting.key}}">{{localize setting.name}}</label>
+            <div class="form-fields">
+                {{#if setting.choice}}
+                    <select name="{{setting.key}}" id="{{setting.key}}">
+                        {{#select setting.value}}
+                            {{#each setting.choices as |choice key|}}
+                                <option value="{{key}}">
+                                    {{localize choice}}
+                                </option>
+                            {{/each}}
+                        {{/select}}
+                    </select>
+                {{else}}
+                    {{#if (eq setting.filePicker "image")}}
+                        <input type="{{setting.inputType}}" name="{{setting.key}}" data-dtype="{{setting.type.name}}"
+                               value="{{setting.value}}">
+                        {{filePicker target=setting.key type="image"}}
+                    {{else}}
+                        <input type="{{setting.inputType}}" name="{{setting.key}}" data-dtype="{{setting.type.name}}"
+                               value="{{setting.value}}" {{checked setting.value}} data-field="{{setting.type.name}}">
+                    {{/if}}
+                {{/if}}
+            </div>
+            <p class="notes">{{{localize setting.hint}}}</p>
+        </div>
+    {{/each}}
+    <div class="submit">
+      <button type="button" name="submit">{{localize "Submit"}}</button>
+    </div>
+</form>
+

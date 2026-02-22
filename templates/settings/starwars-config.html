@@ -1,0 +1,15 @@
+<form id="od6s-sw-config">
+    <p>{{hint}}</p>
+    <section>
+        {{#each options}}
+        <div class="flexrow">
+            <input id="sw.{{id}}" name="{{id}}" type="checkbox" {{#if on}}checked{{/if}} />
+            <label for="sw.{{id}}">{{localize desc}}</label>
+        </div>
+        {{/each}}
+    </section>
+    <footer>
+        <button class="cancel"><i class="fas fa-times"></i> {{localize 'OD6S.SW.FORM_CANCEL'}}</button>
+        <button class="submit"><i class="fas fa-save"></i> {{localize 'OD6S.SW.FORM_SUBMIT'}}</button>
+    </footer>
+</form>
