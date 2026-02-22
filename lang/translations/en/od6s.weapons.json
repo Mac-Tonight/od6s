@@ -1,0 +1,249 @@
+{
+  "label": "Weapons",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {
+    "Light Semi-automatic Pistol": {
+      "name": "Light Semi-automatic Pistol",
+      "description": null
+    },
+    "Medium Semi-automatic Pistol": {
+      "name": "Medium Semi-automatic Pistol",
+      "description": null
+    },
+    "Heavy Semi-automatic Pistol": {
+      "name": "Heavy Semi-automatic Pistol",
+      "description": null
+    },
+    "Rifle (Short Range)": {
+      "name": "Rifle (Short Range)",
+      "description": null
+    },
+    "Rifle (Standard)": {
+      "name": "Rifle (Standard)",
+      "description": null
+    },
+    "Rifle (Semi-Automatic)": {
+      "name": "Rifle (Semi-Automatic)",
+      "description": null
+    },
+    "Single Shot Shotgun(12 gauge)": {
+      "name": "Single Shot Shotgun(12 gauge)",
+      "description": null
+    },
+    "Semi-Automatic Shotgun (12 gauge)": {
+      "name": "Semi-Automatic Shotgun (12 gauge)",
+      "description": null
+    },
+    "Sawed-off Double-Barrel Shotfun (12 gauge)": {
+      "name": "Sawed-off Double-Barrel Shotfun (12 gauge)",
+      "description": null
+    },
+    "Assault Rifle": {
+      "name": "Assault Rifle",
+      "description": null
+    },
+    "Light Submachine Gun": {
+      "name": "Light Submachine Gun",
+      "description": null
+    },
+    "Medium Submachine Gun": {
+      "name": "Medium Submachine Gun",
+      "description": null
+    },
+    "Heavy Submachine Gun": {
+      "name": "Heavy Submachine Gun",
+      "description": null
+    },
+    "Machine Pistol": {
+      "name": "Machine Pistol",
+      "description": null
+    },
+    "Light Machine Gun": {
+      "name": "Light Machine Gun",
+      "description": null
+    },
+    "Medium Machine Gun": {
+      "name": "Medium Machine Gun",
+      "description": null
+    },
+    "Personal Blaster": {
+      "name": "Personal Blaster",
+      "description": null
+    },
+    "Blaster Pistol": {
+      "name": "Blaster Pistol",
+      "description": null
+    },
+    "Blaster Rifle": {
+      "name": "Blaster Rifle",
+      "description": null
+    },
+    "Stun Pistol": {
+      "name": "Stun Pistol",
+      "description": null
+    },
+    "Laser Pistol": {
+      "name": "Laser Pistol",
+      "description": null
+    },
+    "Laser Rifle": {
+      "name": "Laser Rifle",
+      "description": null
+    },
+    "Plasma Pistol": {
+      "name": "Plasma Pistol",
+      "description": null
+    },
+    "Plasma Rifle": {
+      "name": "Plasma Rifle",
+      "description": null
+    },
+    "Gyrojet Pistol": {
+      "name": "Gyrojet Pistol",
+      "description": null
+    },
+    "Gyrojet Rifle": {
+      "name": "Gyrojet Rifle",
+      "description": null
+    },
+    "Needler pistol": {
+      "name": "Needler pistol",
+      "description": null
+    },
+    "Needler rifle": {
+      "name": "Needler rifle",
+      "description": null
+    },
+    "Blowgun": {
+      "name": "Blowgun",
+      "description": null
+    },
+    "Bow (Composite)": {
+      "name": "Bow (Composite)",
+      "description": null
+    },
+    "Wrist Crossbow": {
+      "name": "Wrist Crossbow",
+      "description": null
+    },
+    "Crossbow": {
+      "name": "Crossbow",
+      "description": null
+    },
+    "Dart": {
+      "name": "Dart",
+      "description": null
+    },
+    "Throwing Dagger": {
+      "name": "Throwing Dagger",
+      "description": null
+    },
+    "Shuriken": {
+      "name": "Shuriken",
+      "description": null
+    },
+    "Arrow": {
+      "name": "Arrow",
+      "description": null
+    },
+    "Crossbow Bolt": {
+      "name": "Crossbow Bolt",
+      "description": null
+    },
+    "Axe (large)": {
+      "name": "Axe (large)",
+      "description": null
+    },
+    "Baton": {
+      "name": "Baton",
+      "description": null
+    },
+    "Blackjack": {
+      "name": "Blackjack",
+      "description": null
+    },
+    "Brass Knuckles": {
+      "name": "Brass Knuckles",
+      "description": null
+    },
+    "Bullwhip": {
+      "name": "Bullwhip",
+      "description": null
+    },
+    "Club": {
+      "name": "Club",
+      "description": null
+    },
+    "Dagger": {
+      "name": "Dagger",
+      "description": null
+    },
+    "Hatchet": {
+      "name": "Hatchet",
+      "description": null
+    },
+    "Improvised Weapon": {
+      "name": "Improvised Weapon",
+      "description": null
+    },
+    "Katana": {
+      "name": "Katana",
+      "description": null
+    },
+    "Knife (survival)": {
+      "name": "Knife (survival)",
+      "description": null
+    },
+    "Machete": {
+      "name": "Machete",
+      "description": null
+    },
+    "Manrikigusari": {
+      "name": "Manrikigusari",
+      "description": null
+    },
+    "Nunchaku": {
+      "name": "Nunchaku",
+      "description": null
+    },
+    "QuarterstaffT": {
+      "name": "QuarterstaffT",
+      "description": null
+    },
+    "Rapier": {
+      "name": "Rapier",
+      "description": null
+    },
+    "Sai": {
+      "name": "Sai",
+      "description": null
+    },
+    "Sword (Broad)": {
+      "name": "Sword (Broad)",
+      "description": null
+    },
+    "Sword (Energized Broad)": {
+      "name": "Sword (Energized Broad)",
+      "description": null
+    },
+    "Sword (Short)": {
+      "name": "Sword (Short)",
+      "description": null
+    },
+    "Sword (Two-Handed)": {
+      "name": "Sword (Two-Handed)",
+      "description": null
+    },
+    "Tonfa": {
+      "name": "Tonfa"
+    },
+    "Fragmentation Grenade": {
+      "name": "Fragmentation Grenade"
+    },
+    "Concussion Grenade": {
+      "name": "Concussion Grenade"
+    }
+  }
+}
