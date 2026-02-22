@@ -1,0 +1,32 @@
+{
+  "label": "Vehicles",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {
+    "Motorcycle, small street": {
+      "name": "Motorcycle, small street"
+    },
+    "Motorcycle, large": {
+      "name": "Motorcycle, large"
+    },
+    "Personal Ground Vehicle(small)": {
+      "name": "Personal Ground Vehicle(small)"
+    },
+    "Personal Ground Vehicle(mid-size)": {
+      "name": "Personal Ground Vehicle(mid-size)"
+    },
+    "Personal Ground Vehicle(large)": {
+      "name": "Personal Ground Vehicle(large)"
+    },
+    "Personal Ground Vehicle(sports)": {
+      "name": "Personal Ground Vehicle(sports)"
+    },
+    "Ground Vehicle(Small Mass Transport)": {
+      "name": "Ground Vehicle(Small Mass Transport)"
+    },
+    "2-Legged Combat Walker": {
+      "name": "2-Legged Combat Walker"
+    }
+  }
+}
