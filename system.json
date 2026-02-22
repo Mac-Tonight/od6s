@@ -2,8 +2,7 @@
   "id": "od6s",
   "title": "OpenD6 Space",
   "description": "OpenD6 Space System for FoundryVTT",
-  "version": "1.0.0",
-  "templateVersion": 2,
+  "version": "1.2.0",
   "compatibility": {
     "minimum": "12",
     "verified": "13",
@@ -12,6 +11,7 @@
   "authors": [
     {
       "name": "seumas"
+      "name": "Mac Tonight"
     }
   ],
   "esmodules": [
@@ -249,8 +249,8 @@
     ]
   },
   "socket": true,
-  "gridDistance": 1,
-  "gridUnits": "m",
+  "grid.distance": 1,
+  "grid.units": "m",
   "url": "https://gitlab.com/vtt2/opend6-space/",
   "manifest": "https://gitlab.com/api/v4/projects/23950825/packages/generic/od6s/0.7.0/system.json",
   "download": "https://gitlab.com/api/v4/projects/23950825/packages/generic/od6s/0.7.0/od6s.zip",
