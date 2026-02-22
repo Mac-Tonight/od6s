@@ -2,16 +2,15 @@
   "id": "od6s",
   "title": "OpenD6 Space",
   "description": "OpenD6 Space System for FoundryVTT",
-  "version": "1.2.0",
+  "version": "1.0.0",
+  "templateVersion": 2,
   "compatibility": {
     "minimum": "12",
-    "verified": "13",
-    "maximum": "13"
+    "verified": "13"
   },
   "authors": [
     {
       "name": "seumas"
-      "name": "Mac Tonight"
     }
   ],
   "esmodules": [
@@ -226,17 +225,17 @@
     },
     {
       "lang": "fr",
-      "name": "Français",
+      "name": "Fran\u00e7ais",
       "path": "lang/fr.json"
     },
     {
       "lang": "es",
-      "name": "Español",
+      "name": "Espa\u00f1ol",
       "path": "lang/es.json"
     },
     {
       "lang": "ru",
-      "name": "Русский",
+      "name": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
       "path": "lang/ru.json"
     }
   ],
@@ -249,10 +248,10 @@
     ]
   },
   "socket": true,
-  "grid.distance": 1,
-  "grid.units": "m",
-  "url": "https://github.com/Mac-Tonight/od6s/",
- "manifest": "https://raw.githubusercontent.com/Mac-Tonight/od6s/main/system.json",
-  "download": "https://github.com/Mac-Tonight/od6s/releases/download/v1.2.0/od6s.zip",
+  "gridDistance": 1,
+  "gridUnits": "m",
+  "url": "https://github.com/Mac-Tonight/od6s",
+  "manifest": "https://raw.githubusercontent.com/Mac-Tonight/od6s/main/system.json",
+  "download": "https://github.com/Mac-Tonight/od6s/releases/download/v1.0.0/od6s.zip",
   "license": "https://gitlab.com/vtt2/opend6-space/-/blob/master/LICENSE"
 }
