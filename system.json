@@ -27,7 +27,7 @@
     {
       "name": "weapons",
       "label": "Weapons",
-      "path": "packs/weapons",
+      "path": "packs/weapons/weapons",
       "type": "Item",
       "system": "od6s"
     },
@@ -96,124 +96,197 @@
     },
     {
       "name": "vehicle-weapons",
+      "label": "Vehicle Weapo"packs": [
+    {
+      "name": "weapons",
+      "label": "Weapons",
+      "path": "packs/weapons/weapons",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "armor",
+      "label": "Armor",
+      "path": "packs/armor/armor",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "natural",
+      "label": "Natural Combat Items",
+      "path": "packs/natural/natural",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "advantages",
+      "label": "Advantages",
+      "path": "packs/advantages/advantages",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "disadvantages",
+      "label": "Disadvantages",
+      "path": "packs/disadvantages/disadvantages",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "skills",
+      "label": "Skills",
+      "path": "packs/skills/skills",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "metaphysics-skills",
+      "label": "Metaphysics Skills",
+      "path": "packs/metaphysics-skills/metaphysics-skills",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "specialabilities",
+      "label": "Special Abilities",
+      "path": "packs/special-abilities/special-abilities",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "gear",
+      "label": "Gear",
+      "path": "packs/gear/gear",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "cybernetics",
+      "label": "Cybernetics",
+      "path": "packs/cybernetics/cybernetics",
+      "type": "Item",
+      "system": "od6s"
+    },
+    {
+      "name": "vehicle-weapons",
       "label": "Vehicle Weapons",
-      "path": "packs/vehicle-weapons",
+      "path": "packs/vehicle-weapons/vehicle-weapons",
       "type": "Item",
       "system": "od6s"
     },
     {
       "name": "vehicle-gear",
       "label": "Vehicle Gear",
-      "path": "packs/vehicle-gear",
+      "path": "packs/vehicle-gear/vehicle-gear",
       "type": "Item",
       "system": "od6s"
     },
     {
       "name": "starship-weapons",
       "label": "Starship Weapons",
-      "path": "packs/starship-weapons",
+      "path": "packs/starship-weapons/starship-weapons",
       "type": "Item",
       "system": "od6s"
     },
     {
       "name": "starship-gear",
       "label": "Starship Gear",
-      "path": "packs/starship-gear",
+      "path": "packs/starship-gear/starship-gear",
       "type": "Item",
       "system": "od6s"
     },
     {
       "name": "vehicles",
       "label": "Vehicles",
-      "path": "packs/vehicles",
+      "path": "packs/vehicles/vehicles",
       "type": "Actor",
       "system": "od6s"
     },
     {
       "name": "starships",
       "label": "Starships",
-      "path": "packs/starships",
+      "path": "packs/starships/starships",
       "type": "Actor",
       "system": "od6s"
     },
     {
       "name": "character-templates",
       "label": "Character Templates",
-      "path": "packs/character-templates",
+      "path": "packs/character-templates/character-templates",
       "type": "Item",
       "system": "od6s"
     },
     {
       "name": "macros",
       "label": "Macros",
-      "path": "packs/macros",
+      "path": "packs/macros/macros",
       "type": "Macro",
       "system": "od6s"
     },
     {
       "name": "sw-skills",
       "label": "Star Wars D6 Skills",
-      "path": "packs/sw-skills",
+      "path": "packs/sw-skills/sw-skills",
       "type": "Item"
     },
     {
       "name": "sw-adv-skills",
       "label": "Star Wars D6 Advanced Skills",
-      "path": "packs/sw-adv-skills",
+      "path": "packs/sw-adv-skills/sw-adv-skills",
       "type": "Item"
     },
     {
       "name": "sw-weapons",
       "label": "Star Wars D6 Weapons",
-      "path": "packs/sw-weapons",
+      "path": "packs/sw-weapons/sw-weapons",
       "type": "Item"
     },
     {
       "name": "sw-gear",
       "label": "Star Wars D6 Personal Equipment",
-      "path": "packs/sw-gear",
+      "path": "packs/sw-gear/sw-gear",
       "type": "Item"
     },
     {
       "name": "sw-commodity",
       "label": "Star Wars D6 General Goods",
-      "path": "packs/sw-commodity",
+      "path": "packs/sw-commodity/sw-commodity",
       "type": "Item"
     },
     {
       "name": "sw-powers",
       "label": "Star Wars D6 Force Powers",
-      "path": "packs/sw-powers",
+      "path": "packs/sw-powers/sw-powers",
       "type": "Item"
     },
     {
       "name": "sw-gmpc",
       "label": "Star Wars D6 Gamemaster Characters",
-      "path": "packs/sw-gmpc",
+      "path": "packs/sw-gmpc/sw-gmpc",
       "type": "Actor"
     },
     {
       "name": "sw-starfighters",
       "label": "Star Wars D6 Starfighters",
-      "path": "packs/sw-starfighters",
+      "path": "packs/sw-starfighters/sw-starfighters",
       "type": "Actor"
     },
     {
       "name": "sw-templates",
       "label": "Star Wars D6 Character Templates",
-      "path": "packs/sw-templates",
+      "path": "packs/sw-templates/sw-templates",
       "type": "Item"
     },
     {
       "name": "sw-template-items",
       "label": "Star Wars D6 Template Support Items",
-      "path": "packs/sw-template-items",
+      "path": "packs/sw-template-items/sw-template-items",
       "type": "Item"
     },
     {
       "name": "sw-macros",
       "label": "Star Wars D6 Macros",
-      "path": "packs/sw-macros",
+      "path": "packs/sw-macros/sw-macros",
       "type": "Macro"
     }
   ],
